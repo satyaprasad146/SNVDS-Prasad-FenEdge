@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar-bg {
+    background-color: #FFFFFF20;
+}
+
+.finedge-logo {
+    width: 80px;
+    height: 70px;
+
+}
+
+.finedge-name {
+    font-size: 35px;
+    font-family: TimesNewRoman;
+    font-weight: 500;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navlink:hover {
+    background-color: lightgrey;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+h5 {
+    color: black;
+}
+
+.bg {
+    background-image: radial-gradient(#d9e6fa, white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.home-image {
+    height: 500px;
+    width: 500px;
+}
+
+.home-description {
+    max-width: 800px;
+    min-width: 300px;
+    line-height: 2rem;
+
+}
+
+.description-bg {
+    background-color: #007bff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.banner-section {
+    background-image: url("https://www.phonepe.com/webstatic/static/6a8e4748cf99b4e497a2d04e8b8389cc/5707d/hp-banner1.png");
+    height: 50vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner-content {
+    max-width: 800px;
+    min-width: 300px;
+}
+
+.about-section {
+    background-color: #d9e6fa;
+    padding: 20px;
+}
+
+.about-card {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-image {
+    width: 300px;
+}
+
+.about-content {
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px;
+    line-height: 2.5rem;
+    color: #3B71CA;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.service-section {
+    background-color: #d9e6fa;
+    padding: 20px;
+}
+
+.services-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.service-image1 {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #3B71CA;
+}
+
+.contact-section {
+    background-color: #d9e6fa;
+    padding: 20px;
+}
+
+.contact-card {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 60%;
+}
+
+
+
+
+@media(max-width:768px) {
+    .banner-section {
+        background-image: url("https://res.cloudinary.com/dbupl4ksf/image/upload/v1688625918/bannner3_y5ufer.png");
+        justify-content: flex-start;
+        height: 80vh;
+    }
+
+    .home-image {
+        height: 400px;
+        width: 400px;
+    }
+
+    .bg {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-content {
+        padding-top: 50px;
+    }
+
+    .about-card {
+        flex-direction: column;
+    }
+
+    .about-content {
+        font-size: 20px;
+    }
+
+    .contact-card {
+        max-width: 80%
+    }
+
+}
